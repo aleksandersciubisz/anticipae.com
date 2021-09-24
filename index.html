@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="android-chrome-icon"
+      sizes="192x192"
+      href="img/android-chrome-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+
+    <!-- Main custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Anticipae</title>
+  </head>
+
+  <body>
+    <!-- Full page is wrapped in this div -->
+    <div class="full-page-wiev-container">
+      <!-- Responsive Navbar -->
+      <div class="nav-container">
+        <nav class="navbar">
+          <a href="#anticipae">
+            <img
+              src="img/logoGifBlack.gif"
+              alt=""
+              id="navbar-logo"
+              onmouseover="hoverLogo(this);"
+              onmouseout="unhoverLogo(this);"
+          /></a>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav-menu">
+            <li>
+              <a href="#investigation" class="nav-links">investigation</a>
+            </li>
+            <li><a href="#preparation" class="nav-links">preparation</a></li>
+            <li><a href="#anticipation" class="nav-links">anticiaption</a></li>
+            <li><a href="#" class="nav-links">login</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Full page sections-->
+      <!-- watch out for background and card colors - it is managed with classes -->
+      <section id="anticipae" class="white-black">
+        <div class="console-container">
+          <span id="text"></span>
+          <div class="console-underscore" id="console">&#95;</div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              If you have a problem with:
+              <p>- data analysis in the company</p>
+              <p>- estimating what is possible</p>
+              <p>- preparing for changes</p>
+              <p>- black swans...</p>
+              We have a solutions.
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card card-img">
+              <div class="card card2">
+                <p class="clear">Our solutions:</p>
+                <a href="#investigation">
+                  <div class="btn" style="margin-top: 10px">
+                    investigation
+                  </div></a
+                >
+                <a href="#preparation">
+                  <div class="btn" style="margin-top: 10px">preparation</div></a
+                >
+                <a href="#anticipation">
+                  <div class="btn" style="margin-top: 10px">
+                    anticiaption
+                  </div></a
+                >
+              </div>
+              <img
+                style="width: 320px; height: 200px"
+                src="img/anticipae1.gif"
+                onmouseover="hoverLogo1(this);"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="investigation" class="black-white">
+        <br />
+
+        <h1 id="sectionTitle1">Investigations</h1>
+        <p>Financial control on demand</p>
+        <div class="row">
+          <div class="column">
+            <div class="card black-white">
+              Your first step towards order
+              <br />
+              <p>- Detailed analysis of the current situation</p>
+              <p>- Looking for possible optimization of cash flow</p>
+              <p>- Simple scenarios for the near future</p>
+              <div class="btn btn-black">examples</div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card black-white card-img">
+              <div class="card black-white card2">
+                <p>
+                  Contact us, find out about our flexible pricing and start
+                  here:
+                </p>
+                <a href="#investigation">
+                  <div class="btn btn-black" style="margin-top: 10px">
+                    investigate
+                  </div></a
+                >
+              </div>
+              <img
+                style="width: 320px; height: 200px"
+                src="img/anticipae2.gif"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="preparation" class="white-black">
+        <h1 id="sectionTitle2">Preparation</h1>
+        <p>A solid tool for making informed predictions</p>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              Find possible threats before they find you
+              <br />
+              <p>- Taking into account the influence of external factors</p>
+              <p>- Explore the range of possibilities in the near future</p>
+              <p>- Identification of possible threats</p>
+              <div class="btn">examples</div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card card-img">
+              <div class="card card2">
+                <p>
+                  Understand your environment. Don't be a passive observer, your
+                  response starts here:
+                </p>
+
+                <a href="#preparation">
+                  <div class="btn" style="margin-top: 10px">prepare</div></a
+                >
+              </div>
+              <img
+                style="width: 320px; height: 200px"
+                src="img/anticipae3.gif"
+                onmouseover="hoverLogo3(this);"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="anticipation" class="white-black">
+        <h1 id="sectionTitle3">Anticipation</h1>
+        <p>Dynamic predictive model with all possible paths to the future.</p>
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              Our most complete model
+              <br />
+              <p>- Based on all available data</p>
+              <p>- Extraction tool for various possible scenarios</p>
+              <p>- Ready for black swans arrival</p>
+              <div class="btn">examples</div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card card-img">
+              <div class="card card2">
+                <p>
+                  This model is difficult to implement, but works like magic.
+                  Use it wisely and take its powers:
+                </p>
+                <a href="#anticipation">
+                  <div class="btn" style="margin-top: 10px">anticiapate</div></a
+                >
+              </div>
+              <img
+                style="width: 320px; height: 200px"
+                src="img/anticipae4.gif"
+                onmouseover="hoverLogo4(this);"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <p>
+          &nbsp; email:
+          <a href="mailto:  ALEKSANDER@ANTICIPAE.COM">contact@anticipae.com</a>
+          &nbsp; | &nbsp; social:
+          <a
+            href="https://twitter.com/ASciubisz"
+            class="fab fa-twitter fa-lg"
+            style="border-style: none"
+          ></a>
+          <a
+            href="https://twitter.com/ASciubisz"
+            class="fas fa-blog fa-lg"
+            style="border-style: none"
+          ></a>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
